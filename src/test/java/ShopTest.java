@@ -1,5 +1,6 @@
 import Instruments.Guitar;
 import OtherSellableItems.Amplifier;
+import OtherSellableItems.SheetMusic;
 import Shop.Shop;
 import org.junit.Before;
 import org.junit.Test;
@@ -11,12 +12,14 @@ public class ShopTest {
     private Shop shop;
     private Guitar guitar;
     private Amplifier amplifier;
+    private SheetMusic sheetMusic;
 
     @Before
     public void before(){
         shop = new Shop();
         guitar = new Guitar("guitar", "strings", "fender", 500, 300, 5, "electric");
         amplifier = new Amplifier("amplifier", 70, 100, 1000);
+        sheetMusic = new SheetMusic("sheet music", 5, 8, "Mozart");
     }
 
     @Test
@@ -37,5 +40,14 @@ public class ShopTest {
         shop.addItemToStock(guitar);
         shop.removeItemFromStock(amplifier);
         assertEquals(2, shop.getStockCount());
+    }
+
+    @Test
+    public void canGetTotalPotentialGrossProfit(){
+        shop.addItemToStock(guitar);
+        shop.addItemToStock(amplifier);
+        shop.addItemToStock(guitar);
+        shop.addItemToStock(sheetMusic);
+        assertEquals(433, shop.calculateGP(), 0.1);
     }
 }

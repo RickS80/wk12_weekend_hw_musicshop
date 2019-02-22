@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6df3b2cb-7600-46dd-bf91-39b5e358fdf2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/Shop/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Shop/Shop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ShopTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ShopTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -20,20 +21,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Shop/Shop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+            <state relative-caret-position="323">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ShopTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="38" column="46" lean-forward="true" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
+            <state relative-caret-position="247">
+              <caret line="50" column="45" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -137,8 +138,8 @@
         <option value="$PROJECT_DIR$/src/main/java/OtherSellableItems/Amplifier.java" />
         <option value="$PROJECT_DIR$/src/main/java/OtherSellableItems/SheetMusic.java" />
         <option value="$PROJECT_DIR$/src/test/java/SheetMusicTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Shop/Shop.java" />
         <option value="$PROJECT_DIR$/src/test/java/ShopTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Shop/Shop.java" />
       </list>
     </option>
   </component>
@@ -238,7 +239,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550835555080" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550836176945" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -319,10 +320,12 @@
     <history-entry file="SheetMusicTest - 2019.02.22 at 11h 30m 23s.xml">
       <configuration name="SheetMusicTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ShopTest - 2019.02.22 at 11h 39m 18s.xml">
+      <configuration name="ShopTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="689" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2536349" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -432,17 +435,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Shop/Shop.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ShopTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+        <state relative-caret-position="247">
+          <caret line="50" column="45" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ShopTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Shop/Shop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="46" lean-forward="true" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
+        <state relative-caret-position="323">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>

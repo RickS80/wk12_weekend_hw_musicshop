@@ -25,6 +25,14 @@ public class Shop {
         this.stock.remove(iSellItem);
     }
 
+    public double calculateGP(){
+        double totalGP = 0;
+        for (ISell iSell : this.stock){
+            totalGP += iSell.calculateMarkUp();
+        }
+        return totalGP;
+    }
+
 
 
 }
